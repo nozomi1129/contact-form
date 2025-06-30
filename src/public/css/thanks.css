@@ -1,0 +1,10 @@
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content__ttl {
+    margin: 30px auto;
+    text-align: center;
+    font-weight: bold;
+}
