@@ -17,7 +17,7 @@ class CreateContactsTable extends Migration
             $table->id();
             $table->string('name', 255);
             $table->string('email', 255);
-            $table->integer('tel', 11);
+            $table->string('tel', 11);
             $table->text('content');
             $table->timestamp('created_at')->useCurrent()->nullable();
             $table->timestamp('updated_at')->useCurrent()->nullable();

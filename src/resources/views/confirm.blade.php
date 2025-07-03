@@ -25,7 +25,7 @@
                 お問い合わせ内容確認
             </h2>
 
-            <form class="confirm-form" action ="/sample" method="post">
+            <form class="confirm-form" action ="/thanks" method="post">
             @csrf
             <div class="confirm-table">
                 <table class="confirm-table__inner">

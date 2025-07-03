@@ -27,6 +27,11 @@
     font-size: 12px;
 }
 
+.form-label {
+    display: inline;
+    font-weight: lighter;
+}
+
 .form-label-required {
     border-radius: 3px;
     margin-left: 10px;
@@ -42,7 +47,7 @@
     border: 1px solid #ddd;
     border-radius: 3px;
     margin-left: 40px;
-    padding: 0 10px;
+    padding: auto;
     height: 30px;
     width: 100%;
     font-size: 12px;
@@ -53,7 +58,7 @@
     border-radius: 3px;
     margin-left: 40px;
     padding: 0 10px;
-    height: 200px;
+    height: 150px;
     width: 100%;
     font-size: 12px;
 }
@@ -72,3 +77,14 @@
     border: none;
     cursor: pointer;
 }
+
+.form__error {
+    color: red;
+    font-size: small;
+    font-weight: bold;
+    /* display: block; */
+}
+
+/* .form-text {
+    display: block;
+} */
