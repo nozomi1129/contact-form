@@ -27,6 +27,8 @@
 
 input {
     outline: none;
+    border: none;
+    width: 100%;
 }
 
 .confirm-table__text {

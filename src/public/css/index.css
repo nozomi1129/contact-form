@@ -18,13 +18,14 @@
     padding: 24px 0;
     width: 100%;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .form-item-label {
     width: 40%;
     font-weight: bold;
     font-size: 12px;
+    display: inline-block;
 }
 
 .form-label {
@@ -53,11 +54,16 @@
     font-size: 12px;
 }
 
+.form__error {
+    margin-left: 40px;
+    font-size: 10px;
+}
+
 .form-item-textarea {
     border: 1px solid #ddd;
     border-radius: 3px;
     margin-left: 40px;
-    padding: 0 10px;
+    padding: 5px 0px;
     height: 150px;
     width: 100%;
     font-size: 12px;
@@ -85,6 +91,6 @@
     /* display: block; */
 }
 
-/* .form-text {
-    display: block;
-} */
+.form-text {
+    width: 100%;
+}

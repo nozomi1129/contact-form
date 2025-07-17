@@ -34,11 +34,11 @@
                     </div>
                     <div class="form-text">
                         <input type="text" name="name" class="form-item-input" placeholder="テスト太郎"/>
-                    </div>
-                    <div class="form__error">
+                        <div class="form__error">
                         @error('name')
                             {{ $message }}
                         @enderror
+                    </div>
                     </div>
                 </div>
                 <div class="form-item">
@@ -48,11 +48,11 @@
                     </div>
                     <div class="form-text">
                         <input type="email" name="email" class="form-item-input" placeholder="test@example.com"/>
-                    </div>
                     <div class="form__error">
                         @error('email')
                             {{ $message }}
                         @enderror
+                    </div>
                     </div>
                 </div>
 
@@ -63,17 +63,17 @@
                     </div>
                     <div class="form-text">
                         <input type="tel" name="tel" class="form-item-input" placeholder="09012345678"/>
-                    </div>
                     <div class="form__error">
                         @error('tel')
                             {{ $message }}
                         @enderror
                     </div>
+                    </div>
                 </div>
                 <div class="form-item">
                     <div class="form-item-label">
                         <span class="form-label">お問い合わせ内容</div>
-                    </div>
+                    <!-- </div> -->
                     <div class="form-text">
                         <textarea name="content" class="form-item-textarea" placeholder="資料をいただきたいです"></textarea>
                     </div>
